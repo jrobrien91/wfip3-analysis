@@ -1,0 +1,25 @@
+name: wfip-analysis
+channels:
+  - conda-forge
+  - defaults
+  - pyviz
+dependencies:
+  - arm_pyart
+  - act-atmos
+  - matplotlib
+  - jupyterlab
+  - cartopy
+  - numpy
+  - dask
+  - distributed
+  - xarray
+  - pandas
+  - fiona
+  - hvplot
+  - imageio
+  - siphon
+  - scikit-learn
+  - pip
+  - pip:
+    - -r doc-requirements.txt
+    - nexradaws
