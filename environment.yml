@@ -19,7 +19,9 @@ dependencies:
   - imageio
   - siphon
   - scikit-learn
+  - parse
   - pip
   - pip:
     - -r doc-requirements.txt
     - nexradaws
+    - calmap
